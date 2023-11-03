@@ -27,5 +27,8 @@ jobs:
          SCRIPT_AFTER: |
            whoami
            ls -al
+           cd ~/projects/aws-static-test
+           npm i
+           npm start
            echo aaaaaaaaaaaaaaaaaaaa
            echo $RSYNC_STDOUT

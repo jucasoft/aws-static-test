@@ -27,4 +27,5 @@ jobs:
          SCRIPT_AFTER: |
            whoami
            ls -al
+           echo aaaaaaaaaaaaaaaaaaaa
            echo $RSYNC_STDOUT

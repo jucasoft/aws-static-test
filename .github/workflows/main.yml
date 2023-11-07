@@ -29,5 +29,5 @@ jobs:
            ls -al
            cd ~/projects/aws-static-test
            npm i
-           pm2 start app.js
+           pm2 restart app.js
            echo $RSYNC_STDOUT
